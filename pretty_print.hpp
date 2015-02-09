@@ -380,8 +380,6 @@ void print_entity(const T& t, std::ostream& os, std::true_type, const Fmt& forma
 template<typename T, typename Fmt>
 void print_line(const T& t, std::ostream& os, const Fmt& formatter)
 {
-//	TD<T> td1;
-
 	print_entity(t, os, typename is_container<T>::type(), formatter);
 	os << std::endl;
 }
