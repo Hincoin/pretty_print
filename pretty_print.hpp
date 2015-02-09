@@ -17,13 +17,6 @@
 #include <set>
 
 
-
-
-using std::begin;
-using std::end;
-
-
-
 namespace prettyprint
 {
 	template<class...>
